@@ -16,15 +16,17 @@ import java.util.Date;
 
 import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
 
-@CrossOrigin
+// @CrossOrigin(origins = "http://localhost")
 @RestController
-@RequestMapping("/AccountsReceivable")
+@RequestMapping("AccountsReceivable")
 @RequiredArgsConstructor
 
 public class AccountsReceivableController {
 
     private final AccountsReceivableService accountsReceivableService;
 
+
+//    @CrossOrigin(origins = "http://localhost")
     @PostMapping
     public ResponseEntity<?> uploadImage(@RequestParam ("glreceiptchequeno") String glreceiptchequeno,
                                          @RequestParam ("gldate") @DateTimeFormat(pattern = "yyyy-MM-dd")    Date gldate,
