@@ -1,0 +1,7 @@
+net/maraichage/maraichagebackend/MaraichageBackendApplication.class
+net/maraichage/maraichagebackend/entity/AccountsReceivable.class
+net/maraichage/maraichagebackend/controller/AccountsReceivableController.class
+net/maraichage/maraichagebackend/com/example/util/ImageUtils.class
+net/maraichage/maraichagebackend/repository/AccountsReceivableRepository.class
+net/maraichage/maraichagebackend/service/AccountsReceivableService.class
+net/maraichage/maraichagebackend/entity/AccountsReceivable$AccountsReceivableBuilder.class
